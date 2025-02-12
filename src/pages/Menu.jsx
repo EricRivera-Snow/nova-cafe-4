@@ -541,6 +541,306 @@ const italianSoda = [
   },
 ];
 
+const treats = [
+  {
+    name: "Sweet Belgian Waffle",
+    description: "",
+    image: "src/assets/img/sweet-belgian-waffle.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Cookie",
+    description: "",
+    image: "src/assets/img/cookie.jpg",
+    price: "$3.00",
+  },
+  {
+    name: "Cinnamon Rolls",
+    description: "",
+    image: "src/assets/img/cinnamon-rolls.jpg",
+    price: "$4.00",
+  },
+];
+
+const grilledCheeseLateNight = [
+  {
+    name: "Classic Grilled Cheese",
+    description:
+      "A classic grilled cheese on your choice of bread with your choice of American or White Cheddar cheese. Cut diagonally.",
+    image: "src/assets/img/classic-grilled-cheese.jpg",
+    price: "$9.00",
+  },
+  {
+    name: "Bacon 3 Cheese",
+    description:
+      "A grilled cheese sandwich with American, white cheddar, and provolone melted together with a layer of crispy bacon on your...",
+    image: "src/assets/img/bacon-3-cheese.jpg",
+    price: "$11.00",
+  },
+  {
+    name: "Caprese",
+    description:
+      "A caprese-style grilled cheese sandwich with provolone, sliced roma tomato and featuring a drizzle of pesto and a balsamic...",
+    image: "src/assets/img/caprese-grilled-cheese.jpg",
+    price: "$12.00",
+  },
+  {
+    name: "Baked Potato",
+    description:
+      "A baked potato-style grilled cheese with white cheddar cheese, chopped green onion, bacon, and a layer of Nova seasoned...",
+    image: "src/assets/img/baked-potato-grilled-cheese.jpg",
+    price: "$12.00",
+  },
+  {
+    name: "Breakfast Grilled Cheese",
+    description:
+      "A breakfast-inspired grilled cheese sandwich with American cheese, bacon, hash browns, and an over-medium fried egg on...",
+    image: "src/assets/img/breakfast-grilled-cheese.jpg",
+    price: "$12.00",
+  },
+  {
+    name: "Brie Grilled Cheese",
+    description:
+      "A grilled cheese sandwich with melted brie, diced artichoke hearts, roasted red peppers, and ham on your choice of bread...",
+    image: "src/assets/img/brie-grilled-cheese.jpg",
+    price: "$13.00",
+  },
+];
+
+const tomatoBasilSoup = [
+  {
+    name: "Cup Tomato Basil",
+    description: "",
+    image: "src/assets/img/cup-tomato-basil.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Bowl Tomato Basil",
+    description: "",
+    image: "src/assets/img/bowl-tomato-basil.jpg",
+    price: "$7.00",
+  },
+];
+
+const lateNightDrinks = [
+  {
+    name: "Sprite",
+    description: "",
+    image: "src/assets/img/sprite.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Coke",
+    description: "",
+    image: "src/assets/img/coke.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Diet Coke",
+    description: "",
+    image: "src/assets/img/diet-coke.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Root Beer",
+    description: "",
+    image: "src/assets/img/root-beer.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Dr Pepper",
+    description: "",
+    image: "src/assets/img/dr-pepper.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Juice",
+    description: "",
+    image: "src/assets/img/juice.jpg",
+    price: "$3.50",
+  },
+  {
+    name: "Huckleberry Lemonade",
+    description: "",
+    image: "src/assets/img/huckleberry-lemonade.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Berry Basic",
+    description: "",
+    image: "src/assets/img/berry-basic.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Lemonade",
+    description: "",
+    image: "src/assets/img/lemonade.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Arnold Palmer",
+    description: "",
+    image: "src/assets/img/arnold-palmer.jpg",
+    price: "$4.50",
+  },
+  {
+    name: "Organic Blacked Iced Tea",
+    description: "",
+    image: "src/assets/img/organic-blacked-iced-tea.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Steep Mountain Teas",
+    description: "",
+    image: "src/assets/img/steep-mountain-teas.jpg",
+    price: "$4.00",
+  },
+  {
+    name: "Coffee 16 oz",
+    description: "",
+    image: "src/assets/img/coffee-16oz.jpg",
+    price: "$3.25",
+  },
+  {
+    name: "Lime",
+    description: "",
+    image: "src/assets/img/lacroix-lime.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Lemon",
+    description: "",
+    image: "src/assets/img/lacroix-lemon.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Pamplemousse",
+    description: "",
+    image: "src/assets/img/lacroix-pamplemousse.jpg",
+    price: "$2.50",
+  },
+  {
+    name: "Chocolate Milk",
+    description: "",
+    image: "src/assets/img/chocolate-milk.jpg",
+    price: "$3.50",
+  },
+  {
+    name: "Hot Chocolate",
+    description: "",
+    image: "src/assets/img/hot-chocolate.jpg",
+    price: "$3.50",
+  },
+  {
+    name: "Whole Milk",
+    description: "",
+    image: "src/assets/img/whole-milk.jpg",
+    price: "$3.50",
+  },
+];
+
+const dressingsAndSauces = [
+  {
+    name: "Balsamic",
+    description: "",
+    image: "src/assets/img/balsamic.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Greek",
+    description: "",
+    image: "src/assets/img/greek.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Hollandaise",
+    description: "",
+    image: "src/assets/img/hollandaise.jpg",
+    price: "$3.00",
+  },
+  {
+    name: "Honey Mustard",
+    description: "",
+    image: "src/assets/img/honey-mustard.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Ketchup",
+    description: "",
+    image: "src/assets/img/ketchup.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Mango Lime Vinaigrette",
+    description: "",
+    image: "src/assets/img/mango-lime-vinaigrette.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Nova Syrup",
+    description: "",
+    image: "src/assets/img/nova-syrup.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Oil and Vinegar",
+    description: "",
+    image: "src/assets/img/oil-and-vinegar.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Pico De Gallo",
+    description: "",
+    image: "src/assets/img/pico-de-gallo.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Pure Maple Syrup",
+    description: "",
+    image: "src/assets/img/pure-maple-syrup.jpg",
+    price: "$2.00",
+  },
+  {
+    name: "Ranch",
+    description: "",
+    image: "src/assets/img/ranch.jpg",
+    price: "$1.00",
+  },
+  {
+    name: "Salsa",
+    description: "",
+    image: "src/assets/img/salsa.jpg",
+    price: "$1.00",
+  },
+];
+
+const merch = [
+  {
+    name: "Coffee Mug",
+    description: "",
+    image: "src/assets/img/coffee-mug.jpg",
+    price: "$15.00",
+  },
+  {
+    name: "Travel Mug ($1.25 refills)",
+    description: "",
+    image: "src/assets/img/travel-mug.jpg",
+    price: "$20.00",
+  },
+  {
+    name: "Small Sticker",
+    description: "",
+    image: "src/assets/img/small-sticker.jpg",
+    price: "$2.00",
+  },
+  {
+    name: "Large Sticker",
+    description: "",
+    image: "src/assets/img/large-sticker.jpg",
+    price: "$4.00",
+  },
+];
+
 const Menu = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -604,6 +904,31 @@ const Menu = () => {
           Italian Soda
         </h2>
         <MenuGrid menuArray={italianSoda} />
+
+        <h2 className="text-xl font-semibold italic mt-10 mb-4">
+          Treats - &#40;Pick Up&#41;
+        </h2>
+        <h2 className="text-xl font-semibold italic mb-6">Treats</h2>
+        <MenuGrid menuArray={treats} />
+
+        <h2 className="text-xl font-semibold italic mt-10 mb-4">
+          Late Night Nova - &#40;Pick Up&#41;
+        </h2>
+        <h2 className="text-xl font-semibold italic mb-6">
+          Grilled Cheese Late Night
+        </h2>
+        <MenuGrid menuArray={grilledCheeseLateNight} />
+        <h2 className="text-xl font-semibold italic mb-6">Tomato Basil Soup</h2>
+        <MenuGrid menuArray={tomatoBasilSoup} />
+        <h2 className="text-xl font-semibold italic mb-6">Late Night Drinks</h2>
+        <MenuGrid menuArray={lateNightDrinks} />
+        <h2 className="text-xl font-semibold italic mb-6">
+          Dressings and Sauces
+        </h2>
+        <MenuGrid menuArray={dressingsAndSauces} />
+
+        <h2 className="text-xl font-semibold italic mt-10 mb-4">Merch</h2>
+        <MenuGrid menuArray={merch} />
       </main>
 
       {/* Footer (not fixed, but ensures spacing) */}

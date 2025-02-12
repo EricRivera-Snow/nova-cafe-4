@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const defaultImage = "src/assets/img/default-image.jpg"; // Replace with your actual default image path
+const defaultImage = "src/assets/img/nova-cafe-logo.png";
 
 export default function MenuGrid({ menuArray }) {
   const [selectedItem, setSelectedItem] = useState(null);
